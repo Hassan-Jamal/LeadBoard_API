@@ -1,0 +1,51 @@
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.data {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 40px;
+}
+.display  {
+    width: 50%;
+}
+
+table {
+    width: 100%;
+}
+
+td{
+    border: 2px solid white;
+    font-size: 15px;
+    padding-left: 8px;
+}
+
+.add {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+button{
+    background-color:white;
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 18px;
+    background-color: white;
+}
